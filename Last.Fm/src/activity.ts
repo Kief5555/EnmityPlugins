@@ -47,7 +47,7 @@ export function setActivity(activity) {
 export function getActivity(): Activity | undefined {
   let activity: Activity = {
     name: get(Manifest.name, "name", "Last.fm")?.toString(),
-    type: 3,
+    type: 2,
     details: "",
     state: "",
     application_id: "1052565934088405062",
